@@ -1,0 +1,162 @@
+/*CSS reset or removes all margins and paddings that we did not set*/
+/*General*/
+*{
+	margin:0;
+	padding:0;
+	/*font-family: 'Roboto Slab', serif;*/
+	box-sizing: border-box;
+}
+html,
+body {
+	height:100%;
+	width:100%;
+	font-size: 1rem;
+	font-family: 'Roboto Slab', serif;
+}
+/*.flex-container{
+	display:flex;
+}*/
+
+/*NAV*/
+.page-header {
+	background-color: #8ec4a6;
+	
+
+}
+
+.nav-item:hover {
+	background-color:#bedcca;
+	color:#0a161d;
+	padding:0;
+	border-radius: 10px;
+}
+#logo {
+	width: 50px;
+	height: 50px;
+}
+
+/*home*/
+.display-1 {
+		font-size:100px;
+		color:#705157;
+		text-shadow: 50px;
+		
+		
+}
+#title{
+	font-family: 'Righteous', cursive;
+}
+
+#viewprofile {
+	color:#fff;
+}
+#viewprofile:hover {
+	color:#705157;
+}
+
+#home-img{
+	height:230px;
+	margin:0;
+	padding:0;
+}
+
+
+/*about*/
+.aboutpage {
+	background-color: #eacfa6;
+	
+}
+#tab{
+	background-color: #eacfa6;
+	padding:0;
+}
+#tab:hover{
+	border-color:#fff;
+	
+}
+#tab2 {
+	background-color: #eacfa6;
+}
+
+#aboutme {
+	flex-wrap: wrap;
+
+}
+#imgsize {
+	height:70px;
+	width:70px;
+	padding:0;
+	margin:0;
+}
+#vector{
+	flex-wrap: wrap;
+	height:500px;
+	width:500px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+#swork {
+	color:#fff;
+}
+#swork:hover {
+	color:#705157;
+	
+}
+
+/*works*/
+.sampleworks {
+	background:url(web1a.png);
+}
+.wave {
+	height:100px;
+}
+	
+#web{
+	height:130px;
+
+}
+#slideshow{
+	flex-wrap:wrap;
+}
+
+/*Contact*/
+.contact {
+	background-color:
+#b5a385;
+	
+	
+}
+
+#extra {
+	background-color:
+#b5a385;
+	height:20px;
+	width:100%;
+}
+#contact {
+	flex-wrap: wrap;
+}
+#cd{
+	color:#705157;
+}
+
+#icon{
+	height:30px;
+}
+/*footer*/
+footer{
+	background-color: #8ec4a6;
+	height:50px;
+	width:100%;
+}
+#homeb {
+	border-color: #8ec4a6;
+	border-radius:5px;
+	border-width: 2px;
+	padding: 20px;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+#homeb:hover {
+	background-color: #8ec4a6;
+}
