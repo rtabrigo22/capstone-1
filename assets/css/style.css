@@ -97,8 +97,17 @@ body {
 }
 #swork {
 	color:#fff;
+
 }
 #swork:hover {
+	color:#705157;
+	
+}
+#inquire {
+	color:black;
+
+}
+#inquire:hover {
 	color:#705157;
 	
 }
